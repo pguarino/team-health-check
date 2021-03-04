@@ -4,7 +4,7 @@ import './SentimentButtons.scss'
 export function SentimentButtons() {
 
     return (
-        <div>
+        <div class="sentiment-container">
             <button className="sentiment">
                 <img src="./images/red.png" title="Red"  onClick={() => console.log("red clicked")}/>
             </button>

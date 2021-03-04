@@ -9,7 +9,10 @@ export function TopicQuestion(props) {
                     <div class="child-title">Green being:</div>
                     {props.goodExample}
                 </div>
-                <div class="float-child">{props.badExample}</div>
+                <div class="float-child">
+                    <div class="child-title">Red Being:</div>
+                    {props.badExample}
+                </div>
             </div>
         </div>
     )

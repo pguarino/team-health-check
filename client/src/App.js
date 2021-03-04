@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {TopicQuestion} from "./components/TopicQuestion/TopicQuestion";
 import {SentimentButtons} from "./components/SentimentButtons/SentimentButtons";
+import {CommentBox} from "./components/CommentBox/CommentBox";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         {/*</a>*/}
           <TopicQuestion topic="Easy To Release" goodExample="Our code is easy to release." badExample="Our code is a nightmare to release."/>
           <SentimentButtons/>
+          <CommentBox/>
     </header>
 
 
